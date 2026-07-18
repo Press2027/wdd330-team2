@@ -1,0 +1,4 @@
+<section class="products">
+  <h2 class="title">Top Products</h2>
+  <ul class="product-list"></ul>
+</section>

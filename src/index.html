@@ -39,22 +39,29 @@
     </div>
 
     <!-- Search -->
-    <section class="search">
-      <input
-        type="text"
-        id="search-input"
-        placeholder="Search by product or brand..."
-      />
-      <button id="search-button">Search</button>
-    </section>
+  <!-- Search -->
+<section class="search">
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Search by product or brand..."
+  />
+  <button id="search-button">Search</button>
 
-    <!-- Product List -->
-    <section class="products">
-      <h2>Top Products</h2>
+  <select id="brand-filter">
+    <option value="">All Brands</option>
+    <option value="Marmot">Marmot</option>
+    <option value="The North Face">The North Face</option>
+    <option value="Cedar Ridge">Cedar Ridge</option>
+  </select>
+</section>
 
-      <!-- JavaScript will insert products here -->
-      <ul class="product-list"></ul>
-    </section>
+<!-- Product List -->
+<section class="products">
+  <h2>Top Products</h2>
+
+  <ul class="product-list"></ul>
+</section>
 
   </main>
 
