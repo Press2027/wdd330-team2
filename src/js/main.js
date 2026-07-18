@@ -9,9 +9,13 @@ const listElement = document.querySelector(".product-list");
 
 const listing = new ProductList("tents", dataSource, listElement);
 
-// Load products when the page opens
-await listing.init();
+async function init() {
+  await listing.init();
 
+  // Search + Filter function
+}
+
+init();
 // Search + Filter function
 async function updateProducts() {
   const searchText = document
